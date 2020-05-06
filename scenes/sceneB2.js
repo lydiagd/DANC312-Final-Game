@@ -64,7 +64,7 @@ class sceneB2 extends Phaser.Scene {
             this.getKnowledge = true;
             this.txt.setText('knowledge: '+ this.knowledge);
             var def = this.add.text(410, 100, '- "learn from observation, witnessing,')
-            var def2 = this.add.text(410, 120, 'modeling and active participation.” ')
+            var def2 = this.add.text(410, 120, '   modeling and active participation.” ')
             var def3 = this.add.text(440, 140, '(Osamure, 6)')
             
         }
@@ -84,7 +84,7 @@ class sceneB2 extends Phaser.Scene {
             this.getKnowledge = true;
             this.txt.setText('knowledge: '+ this.knowledge);
             var def = this.add.text(410, 100, '- "learn from observation, witnessing,')
-            var def2 = this.add.text(410, 120, 'modeling and active participation.” ')
+            var def2 = this.add.text(410, 120, '   modeling and active participation.” ')
             var def3 = this.add.text(440, 140, '(Osamure, 6)')
            
         }
@@ -104,7 +104,7 @@ class sceneB2 extends Phaser.Scene {
             this.getKnowledge = true;
             this.txt.setText('knowledge: '+ this.knowledge);
             var def = this.add.text(410, 100, '- "learn from observation, witnessing,')
-            var def2 = this.add.text(410, 120, 'modeling and active participation.” ')
+            var def2 = this.add.text(410, 120, '   modeling and active participation.” ')
             var def3 = this.add.text(440, 140, '(Osamure, 6)')
             
         }

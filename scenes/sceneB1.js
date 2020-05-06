@@ -110,7 +110,7 @@ class sceneB1 extends Phaser.Scene {
         var c = this.add.text(25, 340, 'such as Dunham, were “determined to bring before the world evidence of the richness and strength of their Afro-American', { font: '14px Arial'})
         var d = this.add.text(25, 360, 'cultural heritage. These efforts attacked the ‘inept’ comic stereotype as well as the exotic, primitive savage image;', { font: '14px Arial'})
         var e = this.add.text(25, 380, 'they also aimed at the abolishment of the ‘natural endowment’ view that was a modification of the other two stereotypes', { font: '14px Arial'})
-        var f = this.add.text(25, 380, 'that developed in the 1930s and 1940s.” (Osumare, 2)', { font: '14px Arial'})
+        var f = this.add.text(25, 400, 'that developed in the 1930s and 1940s.” (Osumare, 2)', { font: '14px Arial'})
     
     }
 

@@ -41,7 +41,7 @@ class sceneA extends Phaser.Scene {
         var cloud = this.add.image(700, 550, 'bubble').setScale(0.4)
         var txt = this.add.text(618, 516, 'knowledge: '+ this.knowledge, { font: '20px Arial', fill: '#000' })
 
-        this.door = this.physics.add.image(300, 30, 'door').setScale(0.2).setImmovable();
+        this.door = this.physics.add.image(300, 60, 'door').setScale(0.2).setImmovable();
         this.physics.add.overlap(this.player, this.door, this.enterDoor, null, this)
         this.physics.add.collider(this.player, this.door)
 
@@ -65,7 +65,7 @@ class sceneA extends Phaser.Scene {
 
     enterDoor()
     {
-        if(this.knowledge < 0)
+        if(this.knowledge < 5)
         {
             var popup = this.add.text(400,50, 'your research isn\'t finished yet! Earn')
             var popup2 = this.add.text(400,75, 'at least 5 knowledge points to continue')

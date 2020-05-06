@@ -26,13 +26,14 @@ class readOpenBook extends Phaser.Scene {
         
         this.sign = this.physics.add.image(400,300, 'book').setImmovable()
 
-        var n1 = this.add.text(90, 120, 'During the 1930s, while an undergr ad, Dunham traveled alone to the', { font: '15px Courier', fill: '#000' })
-        var n2 = this.add.text(90, 150, 'Caribbean to research dance tradit ions that slaves had brought from ', { font: '15px Courier', fill: '#000' })
-        var n3 = this.add.text(90, 180, 'Africa. She adapted what she learn ed into choreography for her company—', { font: '15px Courier', fill: '#000' })
-        var n4 = this.add.text(90, 210, 'the nation’s first self-supporting black dance troupe, which performed', { font: '15px Courier', fill: '#000' })
-        var n5 = this.add.text(90, 240, 'in the United States and 57 other  countries. At a time when black', { font: '15px Courier', fill: '#000' })
-        var n6 = this.add.text(90, 270, 'culture was widely devalued,       Dunham pointed to a rich cultural tradition that', { font: '15px Courier', fill: '#000' })
-        var n7 = this.add.text(90, 300, 'had not been crushed out by        slavery. (Golus, UChicago)', { font: '15px Courier', fill: '#000' })
+        var n1 = this.add.text(90, 120, 'During the 1930s, while an         undergrad, Dunham traveled alone', { font: '15px Courier', fill: '#000' })
+        var n2 = this.add.text(90, 150, 'to the Caribbean to research dance traditions that slaves had brought', { font: '15px Courier', fill: '#000' })
+        var n3 = this.add.text(90, 180, 'from Africa. She adapted what she  learned into choreography for her', { font: '15px Courier', fill: '#000' })
+        var n4 = this.add.text(90, 210, 'company—the nation’s first self-   supporting black dance troupe,', { font: '15px Courier', fill: '#000' })
+        var n5 = this.add.text(90, 240, 'which performed in the United      States and 57 other  countries.', { font: '15px Courier', fill: '#000' })
+        var n6 = this.add.text(90, 270, 'At a time when black culture was   widely devalued, Dunham pointed ', { font: '15px Courier', fill: '#000' })
+        var n7 = this.add.text(90, 300, 'to a rich cultural tradition that  had not been crushed out by slavery.', { font: '15px Courier', fill: '#000' })
+        var n8 = this.add.text(500, 320, '(Golus, UChicago)', { font: '15px Courier', fill: '#000' })
      
 
         var text = this.add.text(500, 500, 'click to return', { font: '16px Courier', fill: '#000' })
