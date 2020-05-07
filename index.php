@@ -1,1 +1,1 @@
-<?php header ('Location: /LBRBTest.html'); ?>
+<?php header ('Location: /danceHTML.html'); ?>
