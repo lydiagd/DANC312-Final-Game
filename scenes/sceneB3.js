@@ -59,7 +59,7 @@ class sceneB3 extends Phaser.Scene {
        var p1 = this.add.text(70, 390, 'Summarily, Dunham created performance ethnographies of the Caribbean on the world’s greatest',{ font: '16px Arial', fill: '#000' })
        var p2 = this.add.text(70, 410, 'stages, privileged the voices of her informants in her ethnographies, and created staged',{ font: '16px Arial', fill: '#000' })
        var p3 = this.add.text(70, 430, 'visions of cross-cultural communication. In the process, she clearly envisioned the African',{ font: '16px Arial', fill: '#000' })
-       var p4 = this.add.text(70, 450, 'diaspora–the Black Atlantic–long before that nomenclature was ever used. (Osamure, 1)',{ font: '16px Arial', fill: '#000' })
+       var p4 = this.add.text(70, 450, 'diaspora – "the Black Atlantic" – long before that nomenclature was ever used. (Osamure, 1)',{ font: '16px Arial', fill: '#000' })
  
     
     }
