@@ -20,7 +20,7 @@ class sceneB0 extends Phaser.Scene {
     preload(){
         this.load.image('up', '../assets/up.png')
         this.load.image('sapphire', '../assets/sapphire.png')
-        this.load.audio('interview', '../assets/Jacob_Pillow_Katherine.mp3')
+        this.load.audio('interview2', '../assets/Jacob_Pillow_Katherine.mp3')
 
     }
 
@@ -59,7 +59,7 @@ class sceneB0 extends Phaser.Scene {
         this.knowledge++;
         this.text.setText('knowledge: '+ this.knowledge);
 
-        this.sound.play('interview')
+        this.sound.play('interview2')
         this.sound.pauseOnBlur = false;
 
         var t = this.add.text(100, 230, 'Katherin Dunham, Age 93', { font: '18px Arial'})
